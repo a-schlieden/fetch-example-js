@@ -2,7 +2,7 @@
   "name": "fetch-example-js",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://a-schlieden.github.io/fetch-example-jse",
+  "homepage": "https://a-schlieden.github.io/fetch-example-js",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /fetch-example-js/"
