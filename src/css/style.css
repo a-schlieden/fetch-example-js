@@ -1,0 +1,40 @@
+h1{
+    color: brown;
+    text-align: center;
+}
+
+.btn-wrap{
+    margin-top: 50px;   
+}
+
+.back-link{
+    padding: 15px 30px;
+    background: chartreuse;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: brown;
+}
+
+/* On Load */
+
+.content-list{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-container{
+    width: 22%;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.image-poster{
+    max-width: 300px;
+}
+
