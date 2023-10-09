@@ -3,6 +3,11 @@ import noPosterCUT from '../images/no-poster_CUT.jpeg';
 
 import { KEY, URL, IMG_URL } from './fetch-data';
 
+const contentList = document.querySelector('.content-list');
+const moreBtn = document.querySelector('.more-btn');
+
+moreBtn.addEventListener('click', onMoreLoad);
+
 async function fetchMainContent() {
     try {
         const response = await fetch(
@@ -15,8 +20,6 @@ async function fetchMainContent() {
         console.log(" ERROR ! -> ", error)
     }
 }
-
-const contentList = document.querySelector('.content-list');
 
 async function renderContent() {
     try {
@@ -55,3 +58,9 @@ async function renderContent() {
 
 
 renderContent()
+
+
+
+function onMoreLoad() {
+    console.log("load more")
+}

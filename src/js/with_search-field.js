@@ -10,7 +10,7 @@ contentForm.addEventListener('submit', onformSubmit)
 function onformSubmit(event) {
     event.preventDefault();
     let searchData = event.currentTarget.elements.searchQuery.value.trim();
-    console.log("search result ", searchData)
+    //console.log("search result ", searchData)
     renderContent(searchData)
 }
 
@@ -69,9 +69,3 @@ function createContent(arrayOfData) {
     contentList.innerHTML = setOfCards.join('');
 }
 
-
-
-
-
-//getElem('#search-form').addEventListener('submit', onformSubmit);
-//getElem('.more-btn').addEventListener('click', onMoreLoad);
