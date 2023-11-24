@@ -17,7 +17,6 @@ function onformSubmit(event) {
 async function fetchMainContent(querry) {
     try {
         const response = await fetch(
-            //`${URL}/trending/movie/day?api_key=${KEY}`
             `${URL}search/movie?api_key=${KEY}&language=en-US&query=${querry}&include_adult=false`
         );
         const data = response.json();

@@ -63,4 +63,9 @@ renderContent()
 
 function onMoreLoad() {
     console.log("load more")
+    clearContent();
+}
+
+function clearContent() {
+    contentList.innerHTML = '';
 }
